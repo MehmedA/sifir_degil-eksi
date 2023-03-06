@@ -1,0 +1,85 @@
+.sifir__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--color-main-blue);
+    padding: 3.2rem 9.6rem;
+}
+
+.logo {
+    width: 15rem;
+}
+
+.sifir__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sifir__navbar-links_logo {
+    margin-right: 2rem;
+} 
+
+.sifir__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sifir__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sifir__navbar-links_container p {
+    color: var(--color-nav-link);
+    font-family: var(--font-family);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+
+    margin: 0 1.6rem;
+    cursor: pointer;
+}
+
+/* .sifir__navbar-sign {
+    
+}
+
+.sifir__navbar-menu_container {
+    
+} */
+
+.sifir__navbar-sign button {
+    font-family: var(--font-family);
+    font-size: 2.4rem;
+    color: var(--color-main-blue);
+    cursor: pointer;
+    font-weight: 500;
+    width: 13rem;
+    line-height: 5.7rem;
+    border-radius: 2.7rem;
+    border: 1px solid var(--color-main-green);
+}
+
+.login-btn {
+    margin-right: 2rem;
+    background-color: #fff;
+}
+
+.register-btn {
+    background-color: var(--color-main-green);
+}
+
+.login-btn:hover {
+    background-color: var(--color-main-blue);
+    color: var(--color-main-green);
+    transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: var(--color-main-blue);
+    color: var(--color-main-green);
+    transition: all 0.3s ease;
+}
